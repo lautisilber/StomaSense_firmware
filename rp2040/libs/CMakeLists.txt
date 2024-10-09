@@ -1,0 +1,10 @@
+add_subdirectory(bme280)
+
+
+## add freertos
+
+set(FREERTOS_CFG_DIRECTORY "${CMAKE_SOURCE_DIR}/libs/FreeRTOS-Config")
+set(FREERTOS_SRC_DIRECTORY "${CMAKE_SOURCE_DIR}/libs/FreeRTOS-Kernel")
+set(FREERTOS_KERNEL_PATH ${FREERTOS_SRC_DIRECTORY})
+set(FREERTOS_CONFIG_FILE_DIRECTORY "${FREERTOS_CFG_DIRECTORY}")
+include(FreeRTOS_Kernel_import.cmake)

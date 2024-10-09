@@ -1,0 +1,9 @@
+{
+    "cmake.buildEnvironment": {
+        "PICO_SDK_PATH": "/Users/lautarosilbergleit/dev/rpi_pico/pico-sdk"
+    },
+    "cmake.configureEnvironment": {
+        "PICO_SDK_PATH": "/Users/lautarosilbergleit/dev/rpi_pico/pico-sdk"
+    },
+    "cmake.generator": "Unix Makefiles"
+}
